@@ -1,0 +1,49 @@
+/* General styling for the page */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin: 0;
+   
+}
+
+/* Styling for the chessboard */
+#chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 600px; 
+    height: 600px;
+    border: 10px solid red;
+    margin-top: 10px;
+}
+
+/* Styling for each tile & pieces*/
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem; 
+    font-weight: bold;
+    color:green; 
+}
+
+/* Light tiles */
+.tile:nth-child(odd) {
+    background-color: white;
+}
+
+/* Dark tiles */
+.tile:nth-child(even) {
+    background-color: black;
+}
+
+/* styling Labels */
+label{
+    display: flex;
+    flex-direction: row;
+    
+}
