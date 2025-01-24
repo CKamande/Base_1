@@ -72,15 +72,5 @@
       { "piece": "knight", "colour": "white", "position": "g1" },
       { "piece": "rook", "colour": "white", "position": "h1" }
     ]
-}
-
-{
-  "symbols": {
-    "king": { "white": "♔", "black": "♚" },
-    "queen": { "white": "♕", "black": "♛" },
-    "rook": { "white": "♖", "black": "♜" },
-    "bishop": { "white": "♗", "black": "♝" },
-    "knight": { "white": "♘", "black": "♞" },
-    "pawn": { "white": "♙", "black": "♟" }
   }
-}
+
